@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Manrope&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+    body {
+        @apply 
+    }
+} */
+
