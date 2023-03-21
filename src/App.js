@@ -5,8 +5,10 @@ import './app.css'
 const App = () => {
     return (
         <div className="text-primary font-climate md:font-mono sm:font-sans">
+            <div className="h-[100vh]">
             <Navbar/>
             <Hero/>
+            </div>
             <Media/>
             <Busride/>
             <News/>
