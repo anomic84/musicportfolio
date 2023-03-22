@@ -16,8 +16,16 @@ const About = () => {
                     Northwest Folklife Festival 2023
                 </p>
             </div>
-            <div>
-                <img src="" alt="" />
+            <div className="flex flex-col justify-center ">
+                    <div className="px-[17px]">
+                        <img src="https://i.imgur.com/EoLSRLZ.jpg" alt="Opening for the Posies" className="w-full " />
+                    </div>
+                    <div className="inline-grid grid-cols-2 gap-[5px] px-[17px] py-[5px]ç">
+                        <img src="https://i.imgur.com/4kOkZTt.jpg" alt="" className="" />
+                        <img src="https://i.imgur.com/QZ5sVsU.jpg" alt="" className=""/>
+                        <img src="https://i.imgur.com/ziYymGX.jpg" alt="" className=""/>
+                        <img src="https://i.imgur.com/JwVKc6w.jpg" alt="" className=""/>
+                    </div>
             </div>
         </div>
     )
