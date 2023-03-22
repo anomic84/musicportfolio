@@ -7,7 +7,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'climate': 'Climate Crisis, cursive',
-        'manrope': 'Manrope, sans-serif'
+        'manrope': 'Manrope, sans-serif',
+        'euph': 'Euphoria Script, cursive',
+        'ubuntu': 'Ubuntu, sans-serif'
 
       },
       colors: {

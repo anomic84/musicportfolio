@@ -1,19 +1,20 @@
 import React from 'react'
-import { Busride, Contact, Footer, Hero, Media, Navbar, News } from './containers'
+import { Busride, Contact, Footer, Hero, Media, Navbar, News, About } from './containers'
 import './app.css'
 
 const App = () => {
     return (
         <div className="text-primary font-climate md:font-mono sm:font-sans">
-            <div className="h-[100vh]">
-            <Navbar/>
-            <Hero/>
+            <div className="">
+                <Navbar />
+                <Hero />
             </div>
-            <Media/>
-            <Busride/>
-            <News/>
-            <Contact/>
-            <Footer/>
+            <About/>
+            <Media />
+            <Busride />
+            <News />
+            <Contact />
+            <Footer />
         </div>
     )
 }

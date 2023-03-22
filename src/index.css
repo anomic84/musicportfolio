@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Ubuntu&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,3 +11,22 @@
     }
 } */
 
+
+.bggradienthero {
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 1% 100%, #1E293BF0 0%, #1E293B 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 1% 100%, #1E293BF0 0%, #1E293B 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 1% 100%, #1E293BF0 0%, #1E293B 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 1% 100%, #1E293BF0 0%, #1E293B 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 1% 100%, #1E293BF0 0%, #1E293B 100%);
+
+}

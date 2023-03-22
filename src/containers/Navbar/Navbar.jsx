@@ -5,7 +5,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="bg-navbg w-full py-7">
+    <div className="bg-navbg w-full py-3 lg:py-7">
       {/* // MONITORS */}
       <div className="hidden lg:flex flex-row justify-center items-center">
         <div className="flex">
@@ -44,10 +44,10 @@ const Navbar = () => {
         </div>
       </div>
       {/* MOBILE */}
-      <div className="pr-4 sm:hidden">
+      <div className="pl-4 sm:hidden">
         {toggleMenu
-          ? <FaTimes color="#530E1A" size={37} onClick={() => setToggleMenu(false)} />
-          : <FaBars color="#530E1A" size={37} onClick={() => setToggleMenu(true)} />}
+          ? <FaTimes className="text-navnametext" size={27} onClick={() => setToggleMenu(false)} />
+          : <FaBars className="text-navnametext" size={27} onClick={() => setToggleMenu(true)} />}
         {toggleMenu && (
           <div className="p-[3rem]">
             <div className="text-navtext dark:text-white sm:text-xl text-center">
