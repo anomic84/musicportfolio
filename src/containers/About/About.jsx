@@ -20,27 +20,27 @@ const About = () => {
             </div>
             <div className="flex flex-col ">
                 <div className="px-[17px] max-w-[960px] mx-auto">
-                    <img src="https://i.imgur.com/EoLSRLZ.jpg" alt="Opening for the Posies" className="w-full " />
+                    <img src="https://i.imgur.com/EoLSRLZ.jpg" alt="Opening for the Posies" className="w-full drop-shadow-lg" />
                     <p className="text-[8px] font-ubuntu text-navtext">Picture taken by <a className="text-[10px]  text-navnametext cursor-pointer " href="https://flickr.com/photos/115479516@N05?fbclid=IwAR1Jao9SkkKj249IZObK41ujkspADim5eiUDsMvL5mYjPEWte80HqrpUUgw">
                         Andrew Kvenvolden</a></p>
                 </div>
                 {/* for monitors and larger */}
                 <div className="inline-grid grid-cols-2 lg:grid-cols-4 gap-[5px] px-[17px] py-[5px] mx-auto max-w-[960px]">
                     <div>
-                        <img src="https://i.imgur.com/4kOkZTt.jpg" alt="" className="max-h-[320px]" />
+                        <img src="https://i.imgur.com/4kOkZTt.jpg" alt="" className="max-h-[320px] drop-shadow-lg" />
                         <p className="hidden lg:block text-[8px] font-ubuntu text-navtext">Pictures taken by <span className="text-[10px]  text-navnametext cursor-pointer">James Toohey</span></p>
                     </div>
                     <div>
-                        <img src="https://i.imgur.com/QZ5sVsU.jpg" alt="" className="max-h-[320px]" />
+                        <img src="https://i.imgur.com/QZ5sVsU.jpg" alt="" className="max-h-[320px] drop-shadow-lg" />
                         <p></p>
                     </div>
                     <div>
-                        <img src="https://i.imgur.com/ziYymGX.jpg" alt="" className="max-h-[320px]" />
+                        <img src="https://i.imgur.com/ziYymGX.jpg" alt="" className="max-h-[320px] drop-shadow-lg" />
                         <p className="hidden lg:block text-[8px]  font-ubuntu text-navtext">Picture taken by <a className="text-[10px]  text-navnametext cursor-pointer" href="http://www.iamwonder.net/?fbclid=IwAR1LYKKFhxS4Ny5NrdxQgtJHvtMGc0xCRmPH4nn-48V-tPNFoWVHVPo9Uzs">
                             Wonder Wood</a></p>
                     </div>
                     <div>
-                        <img src="https://i.imgur.com/JwVKc6w.jpg" alt="" className="max-h-[320px]" />
+                        <img src="https://i.imgur.com/JwVKc6w.jpg" alt="" className="max-h-[320px] drop-shadow-lg" />
                         <p className="hidden lg:block text-[8px] font-ubuntu text-navtext">Picture taken by <a className="text-[10px]  text-navnametext cursor-pointer " href="https://flickr.com/photos/115479516@N05?fbclid=IwAR1Jao9SkkKj249IZObK41ujkspADim5eiUDsMvL5mYjPEWte80HqrpUUgw">
                             Andrew Kvenvolden</a></p>
                     </div>
