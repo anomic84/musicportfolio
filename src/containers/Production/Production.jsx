@@ -3,7 +3,7 @@ import {artists} from '../../constants/constants'
 import ArtistCard from '../../components/ArtistCard'
 const Production = () => {
     return (
-        <section className='bg-navnametext'>
+        <section className='bg-navnametext' id="productions">
             <div>
                 <h1 className='text-center font-bungee text-busride text-4xl lg:text-5xl xl:text-7xl px-[17px] pb-3'>PRODUCED BY SPENCER CARLSON</h1>
             </div>
