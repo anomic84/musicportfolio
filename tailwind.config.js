@@ -9,14 +9,18 @@ module.exports = {
         'climate': 'Climate Crisis, cursive',
         'manrope': 'Manrope, sans-serif',
         'euph': 'Euphoria Script, cursive',
-        'ubuntu': 'Ubuntu, sans-serif'
-
+        'ubuntu': 'Ubuntu, sans-serif',
+        'bungee': 'Bungee Shade, cursive',
+        'titan': 'Titan One, cursive'
       },
       colors: {
         primary: '#2d64b5',
         navbg: '#815973',
         navtext: '#e9fcfd',
-        navnametext: '#b7e8ee'
+        navnametext: '#b7e8ee',
+        mediabg: '#FFb3b3',
+        aboutbg: '#0f172a',
+        busride: '#c85191'
       },
     },
   },

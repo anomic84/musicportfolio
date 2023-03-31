@@ -2,11 +2,11 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className="bg-slate-900 ">
-            <h1 className="text-[2.5rem] lg:text-[4rem] text-manrope text-center pt-5 text-navnametext font-euph tracking-[-0.04em]">"...Clever, Quirky..."</h1>
+        <div className="bg-slate-900 py-10">
+            <h1 className="text-[2.5rem] lg:text-[4rem] text-center text-navnametext font-euph md:tracking-[-0.04em]">"...Clever, Quirky..."</h1>
 
             <div className="flex justify-center">
-                <p className="text-sm lg:text-md leading-6 font-ubuntu text-bold text-navtext px-3 py-4 text-center max-w-[700px] justify-center">
+                <p className="text-sm lg:text-md leading-6 font-ubuntu text-bold text-navtext px-[17px] py-4 text-center max-w-[700px] justify-center">
                     Spencer Carlson is a Singer-Songwriter based out of Seattle Washington. Lyrically mused by desire, depression and anxiety, while finding hope and relief, he sings over a bed of carefully chosen chords or arpeggiated progressions. He combines the feel of influences like Nick Drake, Elliott Smith, and Thurston Moore into songs that sound original and unique.
                     <br /><br />
                     <span className="text-navnametext">Northwest Folklife Festival 2015</span>
@@ -46,11 +46,11 @@ const About = () => {
                     </div>
                 </div>
                 {/* for tablets and mobile */}
-                <ol className="px-[17px] sm:flex justify-around lg:hidden">
-                    <li className="text-[8px] sm:text-[10px] font-ubuntu text-navtext">Pictures 1 & 2 taken by <span className="text-[10px] sm:text-[12px] text-navnametext cursor-pointer">James Toohey</span></li>
-                    <li className="text-[8px] sm:text-[10px] font-ubuntu text-navtext">Picture 3 taken by <a className="text-[10px] sm:text-[12px] text-navnametext cursor-pointer" href="http://www.iamwonder.net/?fbclid=IwAR1LYKKFhxS4Ny5NrdxQgtJHvtMGc0xCRmPH4nn-48V-tPNFoWVHVPo9Uzs">
+                <ol className="px-[17px] sm:flex m-auto lg:hidden">
+                    <li className="text-[8px] px-5  font-ubuntu text-navtext">Pictures 1 & 2 taken by <span className="text-[10px]  text-navnametext cursor-pointer">James Toohey</span></li>
+                    <li className="text-[8px] px-5  font-ubuntu text-navtext">Picture 3 taken by <a className="text-[10px]  text-navnametext cursor-pointer" href="http://www.iamwonder.net/?fbclid=IwAR1LYKKFhxS4Ny5NrdxQgtJHvtMGc0xCRmPH4nn-48V-tPNFoWVHVPo9Uzs">
                         Wonder Wood</a></li>
-                    <li className="text-[8px] sm:text-[10px] font-ubuntu text-navtext">Picture 4 taken by <a className="text-[10px] sm:text-[12px] text-navnametext cursor-pointer " href="https://flickr.com/photos/115479516@N05?fbclid=IwAR1Jao9SkkKj249IZObK41ujkspADim5eiUDsMvL5mYjPEWte80HqrpUUgw">
+                    <li className="text-[8px] px-5  font-ubuntu text-navtext">Picture 4 taken by <a className="text-[10px]  text-navnametext cursor-pointer " href="https://flickr.com/photos/115479516@N05?fbclid=IwAR1Jao9SkkKj249IZObK41ujkspADim5eiUDsMvL5mYjPEWte80HqrpUUgw">
                         Andrew Kvenvolden</a></li>
                 </ol>
             </div>

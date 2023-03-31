@@ -5,14 +5,14 @@ import './app.css'
 const App = () => {
     return (
         <div className="text-primary font-climate md:font-mono sm:font-sans">
-            <div className="">
+            <div className="bggradienthero md:h-screen">
                 <Navbar />
                 <Hero />
             </div>
             <About/>
+            <News />
             <Media />
             <Busride />
-            <News />
             <Contact />
             <Footer />
         </div>
