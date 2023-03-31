@@ -18,7 +18,7 @@ const FormInput = (props) => {
                 onBlur={handleFocus}
                 // onFocus={()=>inputProps.name==="confirmPassword" && setFocused(true)}
                 focused={focused.toString()} />
-            <span className='text-xs text-aboutbg font-ubuntu font-semibold mt-2 error'>{errorMessage}</span>
+            <span className='fispan text-xs text-aboutbg font-ubuntu font-semibold mt-2 error'>{errorMessage}</span>
         </div>
     )
 }
