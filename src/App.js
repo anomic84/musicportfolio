@@ -1,5 +1,5 @@
 import React from 'react'
-import { Busride, Contact, Footer, Hero, Media, Navbar, News, About } from './containers'
+import { Busride, Contact, Footer, Hero, Media, Navbar, News, About, Production } from './containers'
 import './app.css'
 
 const App = () => {
@@ -13,6 +13,7 @@ const App = () => {
             <News />
             <Media />
             <Busride />
+            <Production/>
             <Contact />
             <Footer />
         </div>

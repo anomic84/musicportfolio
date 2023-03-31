@@ -6,3 +6,4 @@ export {default as Media} from "./Media/Media";
 export {default as Navbar} from "./Navbar/Navbar";
 export {default as News} from "./News/News";
 export {default as About} from "./About/About";
+export {default as Production} from "./Production/Production";
