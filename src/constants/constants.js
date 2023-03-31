@@ -25,37 +25,37 @@ export const covers = [
     {
         image: 'https://f4.bcbits.com/img/a4151731436_2.jpg',
         imagealt: 'https://f4.bcbits.com/img/a4151731436_2.jpg',
-        link: 'https://spencercarlson.bandcamp.com/album/limerence',
+        link: 'https://songwhip.com/spencer-carlson/limerence',
         id: 1,
     },
     {
         image: 'https://f4.bcbits.com/img/a1512996341_2.jpg',
         imagealt: 'Jilted EP Cover',
-        link: 'https://spencercarlson.bandcamp.com/album/jilted',
+        link: 'https://songwhip.com/spencer-carlson/jilted',
         id: 2,
     },
     {
         image: 'https://f4.bcbits.com/img/a2508485959_2.jpg',
         imagealt: 'Live at Sky Muse Studio Album Cover',
-        link: 'https://spencercarlson.bandcamp.com/album/live-at-sky-muse-studio',
+        link: 'https://songwhip.com/spencer-carlson/live-at-sky-muse',
         id: 3,
     },
     {
         image: 'https://f4.bcbits.com/img/a2807798781_2.jpg',
         imagealt: 'Porcelain Singles Cover',
-        link: 'https://spencercarlson.bandcamp.com/album/porcelain',
+        link: 'https://songwhip.com/spencer-carlson/porcelain',
         id: 4,
     },
     {
         image: 'https://f4.bcbits.com/img/a4201868195_2.jpg',
         imagealt: 'The Universe is Screaming Album Cover',
-        link: 'https://spencercarlson.bandcamp.com/album/the-universe-is-screaming',
+        link: 'https://songwhip.com/spencer-carlson/the-universe-is-screaming',
         id: 5,
     },
     {
         image: 'https://f4.bcbits.com/img/a2599987885_2.jpg',
         imagealt: 'I\'m Pretty Sure This World Has Cancer Album Cover',
-        link: 'https://spencercarlson.bandcamp.com/album/im-pretty-sure-this-world-has-cancer',
+        link: 'https://songwhip.com/spencer-carlson/im-pretty-sure-this-world-has-cancer',
         id: 6,
     },
 ]
