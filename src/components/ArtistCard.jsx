@@ -13,24 +13,24 @@ const ArtistCard = ({ name, title, description, image, imagealt, tidal, spotify,
                 <div className='flex flex-row justify-start items-center'>
                     <div className=''>{tidal
                         ? (
-                            <a href={tidal}><button className='mr-5 my-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu '>
+                            <a target="_blank" rel="noopener noreferrer" href={tidal} ><button className='mr-5 my-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu '>
                                 Tidal</button></a>)
                         : ''}</div>
                     <div className=''>{spotify
                         ? (
-                            <a href={spotify}><button className='mr-5 my-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu'>
+                            <a target="_blank" rel="noopener noreferrer" href={spotify}><button className='mr-5 my-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu'>
                                 Spotify</button></a>)
                         : ''}
                     </div>
                     <div className=''>{youtube
                         ? (
-                            <a href={youtube}><button className='mr-5 my-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu'>
+                            <a target="_blank" rel="noopener noreferrer" href={youtube}><button className='mr-5 my-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu'>
                                 Youtube</button></a>)
                         : ''}
                     </div>
                     <div className=''>{bandcamp
                         ? (
-                            <a href={bandcamp}><button className='mr-5 my-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu'>
+                            <a target="_blank" rel="noopener noreferrer" href={bandcamp}><button className='mr-5 my-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu'>
                                 Bandcamp</button></a>
                         )
                         : ''}
