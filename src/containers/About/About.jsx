@@ -46,7 +46,7 @@ const About = () => {
                     </div>
                 </div>
                 {/* for tablets and mobile */}
-                <ol className="px-[17px] flex  m-auto whitespace-nowrap lg:hidden">
+                <ol className="px-[17px] flex  m-auto whitespace-wrap lg:hidden">
                     <li className="text-[6px] px-1  font-ubuntu text-navtext">Pictures 1 & 2 taken by <span className="text-[6px]  text-navnametext cursor-pointer">James Toohey</span></li>
                     <li className="text-[6px] px-1  font-ubuntu text-navtext">Picture 3 taken by <a className="text-[6px]  text-navnametext cursor-pointer" href="http://www.iamwonder.net/?fbclid=IwAR1LYKKFhxS4Ny5NrdxQgtJHvtMGc0xCRmPH4nn-48V-tPNFoWVHVPo9Uzs">
                         Wonder Wood</a></li>
