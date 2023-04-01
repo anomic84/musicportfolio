@@ -9,7 +9,7 @@ const BusRideCard = ({ title, image, imagealt, link }) => {
                     rel="noopener noreferrer" >
                     <img src={image}
                         alt={imagealt}
-                        className="px-2 m-auto  drop-shadow-lg hover:blur-sm" />
+                        className="px-2 m-auto  drop-shadow-lg lg:hover:blur-sm" />
                 </a>
             </div>
             <a href={link}
