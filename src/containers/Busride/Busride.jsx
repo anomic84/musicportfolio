@@ -4,12 +4,12 @@ import BusRideCard from '../../components/BusRideCard'
 
 const Busride = () => {
   return (
-    <section className="bg-navnametext py-10" id="busride">
+    <section className="bg-navnametext py-10 flex flex-col justify-center" id="busride">
       <div>
         <a target="_blank"
           rel="noopener noreferrer"
           href="https://songwhip.com/busridedaydream">
-          <h1 className='text-center font-bungee text-aboutbg text-5xl hover:text-[3.25rem] duration-300 px-[17px] pb-3'>
+          <h1 className='text-center font-bungee text-aboutbg text-5xl lg:text-7xl hover:text-[3.25rem] duration-300 px-[17px] pb-3'>
             Bus Ride <br className='md:hidden' />Daydream
           </h1>
         </a>
@@ -19,7 +19,10 @@ const Busride = () => {
         <p className='p-[17px] w-[300px] md:w-[450px] m-auto font-ubuntu text-sm md:text-md  text-aboutbg'>Bus Ride Daydream is a side project by Spencer Carlson. This project is a sonic experiment mixing element of Pychadelic with Lo-Fi Hip Hop<br />
           The ultimate goal is both create the magical feeling of nostalgia that Lo-Fi Hip Hop eminates with the essence of surrealism hovering </p>
       </div>
-      <div className='flex flex-col sm:flex-row justify-center mx-auto py-4 px-[17px] bg-navnametext container'>
+      {/* <div className='flex flex-col sm:flex-row justify-center flex-wrap items-center mx-auto py-4 px-[17px] bg-navnametext container'> */}
+      <div className="inline-grid grid-cols-2 md:grid-cols-3 gap-[5px] px-[17px] py-[5px] mx-auto max-w-[960px]
+                         container">
+
         {busrides.map((busride) => (
           <BusRideCard key={busride.id} {...busride} />
         ))}

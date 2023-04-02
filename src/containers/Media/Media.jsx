@@ -13,7 +13,7 @@ const Media = () => {
           <h1 className='text-center font-bungee text-mediabg text-6xl  pb-3 md:hidden'>Disco-<br/>graphy</h1>
         </div>
         {/* for monitors and larger */}
-        <div className="inline-grid grid-cols-2 lg:grid-cols-4 gap-[5px] px-[17px] py-[5px] mx-auto max-w-[960px]
+        <div className="inline-grid grid-cols-2 md:grid-cols-3 gap-[5px] px-[17px] py-[5px] mx-auto max-w-[960px]
                          container">
           {covers.map((cover) => (
             <CoverCard key={cover.id} {...cover} />
