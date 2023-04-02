@@ -9,7 +9,7 @@ const Busride = () => {
         <a target="_blank"
           rel="noopener noreferrer"
           href="https://songwhip.com/busridedaydream">
-          <h1 className='text-center font-bungee text-aboutbg text-5xl lg:text-7xl hover:text-[3.25rem] duration-300 px-[17px] pb-3'>
+          <h1 className='text-center font-bungee text-aboutbg text-5xl lg:text-7xl duration-300 px-[17px] pb-3'>
             Bus Ride <br className='md:hidden' />Daydream
           </h1>
         </a>
