@@ -75,7 +75,7 @@ const Contact = () => {
 
   console.log(values);
   return (
-    <section className='bg-mediabg'>
+    <section className='bg-mediabg '>
       < div className="flex justify-center pt-8 " id="contact" >
         <h1 className="text-center font-bungee text-7xl pb-3 text-busride">BOOK NOW</h1>
       </div >
@@ -89,7 +89,7 @@ const Contact = () => {
           />
         ))}
 
-        <button className="my-8 mx-auto  rounded bg-busride text-navnametext font-titan  w-[40%] sm:w-[25%] p-2">Send</button>
+        <button className="my-8 mx-auto  rounded bg-busride text-navnametext font-titan  w-[40%] sm:w-[25%] max-w-[180px] p-2">Send</button>
         {showMessage && <p className="messagesentbg text-scredhover text-lg py-1 duration-300 sm:w-[25%] sm:self-center">Message Sent!</p>}
       </form>
     </section >
