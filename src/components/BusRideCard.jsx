@@ -2,14 +2,14 @@ import React from 'react'
 
 const BusRideCard = ({ title, image, imagealt, link }) => {
     return (
-        <div className='flex flex-col items-center py-2 '>
+        <div className='flex flex-col justify-center items-center py-2 card'>
             <div className='flex justify-center'>
                 <a href={link}
                     target="_blank"
                     rel="noopener noreferrer" >
                     <img src={image}
                         alt={imagealt}
-                        className="px-2 m-auto  drop-shadow-lg lg:hover:blur-sm" />
+                        className="px-2 m-auto drop-shadow-lg" />
                 </a>
             </div>
             <a href={link}

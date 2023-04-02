@@ -27,3 +27,17 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
+.container:hover .card {
+    opacity: .5;
+    filter: blur(3px);
+    transition-duration: 120ms;
+}
+
+.container .card:hover {
+    opacity: 1;
+    filter: blur(0px);
+    transition-duration: 120ms;
+   
+    
+}

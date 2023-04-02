@@ -19,7 +19,7 @@ const Busride = () => {
         <p className='p-[17px] w-[300px] md:w-[450px] m-auto font-ubuntu text-sm md:text-md  text-aboutbg'>Bus Ride Daydream is a side project by Spencer Carlson. This project is a sonic experiment mixing element of Pychadelic with Lo-Fi Hip Hop<br />
           The ultimate goal is both create the magical feeling of nostalgia that Lo-Fi Hip Hop eminates with the essence of surrealism hovering </p>
       </div>
-      <div className='flex flex-col sm:flex-row sm:flex-wrap items-center justify-center py-4 px-[17px] bg-navnametext'>
+      <div className='flex flex-col sm:flex-row justify-center mx-auto py-4 px-[17px] bg-navnametext container'>
         {busrides.map((busride) => (
           <BusRideCard key={busride.id} {...busride} />
         ))}
