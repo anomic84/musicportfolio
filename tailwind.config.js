@@ -18,6 +18,7 @@ module.exports = {
         navbg: '#815973',
         navtext: '#e9fcfd',
         navnametext: '#b7e8ee',
+        navnametexthover: '#b4dade',
         mediabg: '#FFb3b3',
         aboutbg: '#0f172a',
         busride: '#c85191'

@@ -13,25 +13,37 @@ const ArtistCard = ({ name, title, description, image, imagealt, tidal, spotify,
                 <div className='flex flex-row justify-start items-center'>
                     <div className=''>{tidal
                         ? (
-                            <a target="_blank" rel="noopener noreferrer" href={tidal} ><button className='mr-5 mt-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu '>
-                                Tidal</button></a>)
+                            <a target="_blank" rel="noopener noreferrer" href={tidal} >
+                                <button className='mr-5 mt-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu hover:bg-navnametexthover'>
+                                    Tidal
+                                </button>
+                            </a>)
                         : ''}</div>
                     <div className=''>{spotify
                         ? (
-                            <a target="_blank" rel="noopener noreferrer" href={spotify}><button className='mr-5 mt-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu'>
-                                Spotify</button></a>)
+                            <a target="_blank" rel="noopener noreferrer" href={spotify}>
+                                <button className='mr-5 mt-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu hover:bg-navnametexthover'>
+                                    Spotify
+                                </button>
+                            </a>)
                         : ''}
                     </div>
                     <div className=''>{youtube
                         ? (
-                            <a target="_blank" rel="noopener noreferrer" href={youtube}><button className='mr-5 mt-5 px-7 p-2 border-[3px] border-busride text-busride  text-center font-ubuntu'>
-                                Youtube</button></a>)
+                            <a target="_blank" rel="noopener noreferrer" href={youtube}>
+                                <button className='mr-5 mt-5 px-7 p-2 border-[3px] border-busride text-busride  text-center font-ubuntu hover:bg-navnametexthover'>
+                                    Youtube
+                                </button>
+                            </a>)
                         : ''}
                     </div>
                     <div className=''>{bandcamp
                         ? (
-                            <a target="_blank" rel="noopener noreferrer" href={bandcamp}><button className='mr-5 mt-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu'>
-                                Bandcamp</button></a>
+                            <a target="_blank" rel="noopener noreferrer" href={bandcamp}>
+                                <button className='mr-5 mt-5 px-7 py-2 border-[3px] border-busride text-busride  text-center font-ubuntu hover:bg-navnametexthover'>
+                                    Bandcamp
+                                </button>
+                            </a>
                         )
                         : ''}
                     </div>
