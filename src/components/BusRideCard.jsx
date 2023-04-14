@@ -15,7 +15,7 @@ const BusRideCard = ({ title, image, imagealt, link }) => {
             <a href={link}
                 target="_blank"
                 rel="noopener noreferrer">
-                <h1 className="font-titan text-busride text-md sm:text-xl">{title}</h1>
+                <h1 className="font-titan text-busride text-sm whitespace-pre sm:text-xl">{title}</h1>
             </a>
         </div>
     )

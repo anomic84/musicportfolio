@@ -2,9 +2,9 @@ import React from 'react'
 
 const ArtistCard = ({ name, title, description, image, imagealt, tidal, spotify, youtube, bandcamp }) => {
     return (
-        <div className='flex flex-col sm:flex-row px-[17px] sm:py-[17px] md:w-[80%] max-w-[1024px]'>
-            <img className='shadow-lg sm:shadow-none sm:h-[40%] sm:w-[45%] md:h-[30%] md:w-[30%] sm:mr-2' src={image} alt={imagealt} />
-            <div className='flex flex-col justify-between'>
+        <div className='flex flex-col sm:flex-row px-[17px] py-[17px] md:w-[80%] max-w-[1024px]'>
+            <img className='shadow-lg sm:shadow-none sm:h-[40%] sm:w-[40%] md:h-[40%] md:w-[40%] sm:mr-2' src={image} alt={imagealt} />
+            <div className='flex flex-col justify-between '>
                 <div>
                     <h1 className='font-ubuntu font-bold text-lg text-busride pt-3 sm:pt-0'>{name} - {title}</h1>
                     <br className='sm:hidden' />

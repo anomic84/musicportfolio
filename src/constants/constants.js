@@ -62,39 +62,46 @@ export const covers = [
 
 export const busrides = [
     {
+        title: 'Cyclothymia [May 19th]',
+        image: 'https://i.imgur.com/5hTtYmK.png',
+        imagealt: 'Cyclothymia Cover',
+        link: 'https://songwhip.com/busridedaydream/cyclothymia',
+        id: 1,
+    },
+    {
         title: 'Palo Copal',
         image: 'https://f4.bcbits.com/img/a1448451007_2.jpg',
         imagealt: 'Palo Copal EP Cover',
         link: 'https://songwhip.com/busridedaydream/palocopal',
-        id: 1,
+        id: 2,
     },
     {
         title: 'Ghost Conversations',
         image: 'https://f4.bcbits.com/img/a0798828536_2.jpg',
         imagealt: 'Ghost Conversations EP Cover',
         link: 'https://songwhip.com/busridedaydream/ghost-conversations',
-        id: 2,
+        id: 3,
     },
     {
         title: 'Aquamoon',
         image: 'https://f4.bcbits.com/img/a1778948872_2.jpg',
         imagealt: 'Aquamoon Album Cover',
         link: 'https://songwhip.com/busridedaydream/aquamoon',
-        id: 3,
+        id: 4,
     },
     {
         title: 'King County Metro',
         image: 'https://f4.bcbits.com/img/a4208299269_2.jpg',
         imagealt: 'King County Metro EP Cover',
         link: 'https://songwhip.com/busridedaydream/king-county-metro',
-        id: 4,
+        id: 5,
     },
     {
         title: 'LofiForLana',
         image: 'https://f4.bcbits.com/img/a0842278366_2.jpg',
         imagealt: 'Lofi For Lana EP Cover',
         link: 'https://songwhip.com/busridedaydream/lofiforlana',
-        id: 5,
+        id: 6,
     },
 ]
 
