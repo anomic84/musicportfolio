@@ -21,7 +21,8 @@ module.exports = {
         navnametexthover: '#b4dade',
         mediabg: '#FFb3b3',
         aboutbg: '#0f172a',
-        busride: '#c85191'
+        busride: '#c85191',
+        syzygy: '#240519'
       },
     },
   },

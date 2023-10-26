@@ -7,10 +7,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full h-[7vh] bg-mediabg top-0">
+      <div className="w-full bg-syzygy top-0">
         {/* // MONITORS */}
         <div className="hidden lg:flex flex-row justify-center  items-center   w-screen">
-          <div className="flex py-3">
+          <div className="flex py-5">
             <div className="flex flex-1 items-center py-auto justify-end">
 
               {/* Monitor Links List */}
@@ -80,7 +80,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* MOBILE */}
-      <div className="w-full bg-mediabg">
+      <div className="w-full bg-syzygy">
         {/* 1 */}
         <div className="sm:hidden flex flex-row justify-between items-center px-4 py-3 w-full">
           {toggleMenu ? (

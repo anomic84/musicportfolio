@@ -23,46 +23,52 @@ export const shows = [
 
 export const covers = [
     {
-        image: 'https://f4.bcbits.com/img/a4151731436_2.jpg',
-        imagealt: 'https://f4.bcbits.com/img/a4151731436_2.jpg',
-        link: 'https://songwhip.com/spencer-carlson/limerence',
+        image: 'https://f4.bcbits.com/img/a4032040179_16.jpg',
+        imagealt: 'Syzygy Album Cover',
+        link: 'https://songwhip.com/spencer-carlson/syzygy',
         id: 1,
+    },
+    {
+        image: 'https://f4.bcbits.com/img/a4151731436_2.jpg',
+        imagealt: 'Limerence Album Cover',
+        link: 'https://songwhip.com/spencer-carlson/limerence',
+        id: 2,
     },
     {
         image: 'https://f4.bcbits.com/img/a1512996341_2.jpg',
         imagealt: 'Jilted EP Cover',
         link: 'https://songwhip.com/spencer-carlson/jilted',
-        id: 2,
+        id: 3,
     },
     {
         image: 'https://f4.bcbits.com/img/a2508485959_2.jpg',
         imagealt: 'Live at Sky Muse Studio Album Cover',
         link: 'https://songwhip.com/spencer-carlson/live-at-sky-muse',
-        id: 3,
+        id: 4,
     },
     {
         image: 'https://f4.bcbits.com/img/a2807798781_2.jpg',
         imagealt: 'Porcelain Singles Cover',
         link: 'https://songwhip.com/spencer-carlson/porcelain',
-        id: 4,
+        id: 5,
     },
     {
         image: 'https://f4.bcbits.com/img/a4201868195_2.jpg',
         imagealt: 'The Universe is Screaming Album Cover',
         link: 'https://songwhip.com/spencer-carlson/the-universe-is-screaming',
-        id: 5,
+        id: 6,
     },
     {
         image: 'https://f4.bcbits.com/img/a2599987885_2.jpg',
         imagealt: 'I\'m Pretty Sure This World Has Cancer Album Cover',
         link: 'https://songwhip.com/spencer-carlson/im-pretty-sure-this-world-has-cancer',
-        id: 6,
+        id: 7,
     },
 ]
 
 export const busrides = [
     {
-        title: 'Cyclothymia [May 19th]',
+        title: 'Cyclothymia',
         image: 'https://i.imgur.com/5hTtYmK.png',
         imagealt: 'Cyclothymia Cover',
         link: 'https://songwhip.com/busridedaydream/cyclothymia',

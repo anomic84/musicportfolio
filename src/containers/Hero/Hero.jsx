@@ -11,8 +11,8 @@ const Hero = () => {
           <img className="m-auto w-[80%] max-h-[768px] max-w-[768px] rounded-[20%] border-navnametext border-4 
                           md:border-8 border-opacity-80 shadow-2xl
                           hover:w-[82%] duration-300 cursor-pointer"
-            src="https://i.imgur.com/2amlMzV.jpg"
-            alt="Limerence Album Cover" />
+            src="https://i.imgur.com/n9TIXIi.png"
+            alt="Syzygy Album Cover" />
         </a>
       </div>
     </section>
