@@ -4,7 +4,7 @@ import CoverCard from '../../components/CoverCard'
 
 const Media = () => {
   return (
-    <div className='bgmedia py-10' id='media'>
+    <div className='bgmedia py-10 h-[88vh]' id='media'>
       <div className="flex flex-col ">
         <div>
           <h1 className='hidden md:block text-center font-bungee text-mediabg text-7xl pb-3'>Discography</h1>

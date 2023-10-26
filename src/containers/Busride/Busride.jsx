@@ -20,7 +20,7 @@ const Busride = () => {
           The ultimate goal is both create the magical feeling of nostalgia that Lo-Fi Hip Hop eminates with the essence of surrealism hovering </p>
       </div>
       {/* <div className='flex flex-col sm:flex-row justify-center flex-wrap items-center mx-auto py-4 px-[17px] bg-navnametext container'> */}
-      <div className="inline-grid grid-cols-2 md:grid-cols-3 gap-[5px] px-[17px] py-[5px] mx-auto max-w-[960px]
+      <div className="inline-grid grid-cols-2 md:grid-cols-3 gap-[5px]  px-[17px] py-[10px] mx-auto max-w-[960px]
                          container">
 
         {busrides.map((busride) => (

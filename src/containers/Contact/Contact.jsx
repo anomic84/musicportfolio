@@ -75,8 +75,8 @@ const Contact = () => {
 
   console.log(values);
   return (
-    <section className='bg-mediabg '>
-      < div className="flex justify-center pt-8 " id="contact" >
+    <section className='bg-mediabg h-[88vh] flex flex-col justify-center' id="contact">
+      < div className="flex justify-center pt-8 "  >
         <h1 className="text-center font-bungee text-7xl pb-3 text-busride">BOOK NOW</h1>
       </div >
       <form ref={form} className='flex flex-col px-8 py-2' onSubmit={sendEmail}>
