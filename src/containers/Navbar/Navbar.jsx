@@ -44,12 +44,12 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* // TABLET */}
-      <div className="hidden sm:flex lg:hidden flex-col items-center fixed mb-auto top-0 ">
+      {/* // --------------------------------TABLET-------------------------------- // */}
+      <div className="hidden py-3 bg-syzygy w-screen sm:flex lg:hidden flex-col items-center  mb-auto top-0 ">
 
         {/* Tablet Links List */}
         <div>
-          <p className='px-3 text-lg text-navnametext'>
+          <p className='px-3 text-lg font-climate tracking-widest text-navnametext'>
             <Link to='/'>SPENCER CARLSON</Link>
           </p>
         </div>
